@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ums_db
+    username: root
+    password: root
+  jpa:
+    properties:
+      javax.persistence.jdbc.driver: com.mysql.jdbc.Driver
+      hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+
+jwt:
+  secret:
+    javamaster
+
+smtp:
+  debug: true
+
+
