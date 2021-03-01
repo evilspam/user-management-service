@@ -184,7 +184,7 @@ List of users
 The app throws custom exceptions wherever necessary which are captured through a controller advice. It then returns the appropriate error response to the caller
 
 * CodeExpiredException - 410 code
-* CodeNotFoundException - 400 code
+* CodeNotFoundException - 404 code
 * EmailAlreadyExistException - 409 code
 * EntityAlreadyExistException - 409 code
 * EntityNotFoundException - 404 code
